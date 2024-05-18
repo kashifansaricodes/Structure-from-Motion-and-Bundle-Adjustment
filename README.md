@@ -26,7 +26,7 @@ The dataset used is a JBL Speaker ([Link](https://drive.google.com/drive/folders
 A sample image:
 
 <p align="center">
-  <img src="image.png" alt="sample_image" width="500" height="300">
+  <img src="image.png" alt="sample_image" width="300" height="300">
 </p>
 
 ### Output
