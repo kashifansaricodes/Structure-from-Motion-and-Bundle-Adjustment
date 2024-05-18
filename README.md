@@ -33,11 +33,11 @@ A sample image:
 
 ![Output_Point_cloud](Result/sfm.gif)
 
-
-
 ### Team Members
 
-1. Arihant Gaur
-2. Saurabh Kemekar
+* [Sachin Ramesh Jadhav](https://github.com/robosac333)
+* [Kautilya Reddy](https://github.com/1412kauti)
+* Kashif Ansari
+* [Navdeep Singh](https://github.com/syzygy21)
 
 IMPORTANT: Due to the lack of time, it wasn't possible to extend this project. Maybe in the near future, we would be able to optimize bundle adjustment, increase data association size, and incorporate Multiview Stereo. This is purely a project to learn and understand 3D Reconstruction of large scale data, and implement in an understandable manner, using python. Do NOT use it for research purposes. Use other incremental SfM pipelines like COLMAP.
