@@ -24,10 +24,9 @@
 The dataset used is a JBL Speaker ([Link](https://drive.google.com/drive/folders/16r0MLKJSryVjavbvIiSIOnX3kfUCeG8_)). All the images have been used for obtaining the sparse point cloud.
 
 A sample image:
-![sample_image](image.png)
 
 <p align="center">
-  <img src="image.png" alt="sample_image" width="300" height="150">
+  <img src="image.png" alt="sample_image" width="500" height="300">
 </p>
 
 ### Output
