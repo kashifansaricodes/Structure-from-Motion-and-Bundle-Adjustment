@@ -26,6 +26,10 @@ The dataset used is a JBL Speaker ([Link](https://drive.google.com/drive/folders
 A sample image:
 ![sample_image](image.png)
 
+<p align="center">
+  <img src="image.png" alt="sample_image" width="300" height="150">
+</p>
+
 ### Output
 
 ![Output_Point_cloud](Result/sfm.gif)
