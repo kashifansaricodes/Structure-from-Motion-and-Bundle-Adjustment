@@ -1,4 +1,4 @@
-# Structure From Motion and Bundle Adjustments
+# Structure From Motion and Bundle Adjustment
 
 ### Steps to Execute
 
