@@ -1,15 +1,9 @@
-# Stereo 3D Reconstruction
-
-The README is divided into two parts,
-1. Structure from Motion (For camera parameters and sparse reconstruction): Here, incremental structure from motion is implemented.
-2. Multiview Stereo (For dense reconstruction): Will be done later.
-
-## Structure from Motion (SfM)
+# Structure From Motion and Bundle Adjustment
 
 ### Steps to Execute
 
-1. Clone the repository as ```git clone https://github.com/FlagArihant2000/sfm-mvs```
-2. ```cd sfm-mvs```. The directory for the image directory (Line 30), along with the camera parameters (Line 16) can be updated accordingly.
+1. Clone the repository as ```https://github.com/robosac333/Structure-from-Motion-and-Bundle-Adjustments.git```
+2. ```cd Structure-from-Motion-and-Bundle-Adjustments```. The directory for the image directory (Line 30), along with the camera parameters (Line 16) can be updated accordingly.
 3. Run ```python3 sfm.py```.
 4. If executed successfully, open ```sparse.ply``` to analyse the sparse reconstruction using meshlab.
 
@@ -27,22 +21,23 @@ The README is divided into two parts,
 
 ### Dataset
 
-The dataset used is a statue of Gustav II Adolf ([Link](http://www.maths.lth.se/matematiklth/personal/calle/dataset/dataset.html)). All the images have been used for obtaining the sparse point cloud.
+The dataset used is a JBL Speaker ([Link](https://drive.google.com/drive/folders/16r0MLKJSryVjavbvIiSIOnX3kfUCeG8_)). All the images have been used for obtaining the sparse point cloud.
 
 A sample image:
-<img src="image.jpg" alt="Image" style="zoom:25%;" />
 
-
+<p align="center">
+  <img src="image.png" alt="sample_image" width="300" height="300">
+</p>
 
 ### Output
 
-<img src="Result/result.png" alt="Image" style="zoom:50%;" />
-
-
+![Output_Point_cloud](Result/sfm.gif)
 
 ### Team Members
 
-1. Arihant Gaur
-2. Saurabh Kemekar
+* [Sachin Ramesh Jadhav](https://github.com/robosac333)
+* [Kautilya Reddy](https://github.com/1412kauti)
+* [Kashif Ansari](https://github.com/kashifansaricodes)
+* [Navdeep Singh](https://github.com/syzygy21)
 
 IMPORTANT: Due to the lack of time, it wasn't possible to extend this project. Maybe in the near future, we would be able to optimize bundle adjustment, increase data association size, and incorporate Multiview Stereo. This is purely a project to learn and understand 3D Reconstruction of large scale data, and implement in an understandable manner, using python. Do NOT use it for research purposes. Use other incremental SfM pipelines like COLMAP.
