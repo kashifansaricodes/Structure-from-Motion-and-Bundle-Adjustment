@@ -1,5 +1,15 @@
 # Structure From Motion and Bundle Adjustment
 
+---
+
+Captured high-resolution images of a JBL speaker from multiple angles for 3D reconstruction.
+Applied a structure-from-motion (SfM) pipeline involving: [Feature detection and matching, Camera pose estimation, Sparse point cloud generation and Dense reconstruction]
+Visualized and refined the point clouds in MeshLab, removing noise and improving model accuracy.
+Converted the refined point cloud into a 3D mesh, textured and optimized in Blender.
+Imported the final digital twin into Gazebo and Isaac Sim environments for simulation and analysis.
+
+--
+
 ### Steps to Execute
 
 1. Clone the repository as ```https://github.com/robosac333/Structure-from-Motion-and-Bundle-Adjustments.git```
