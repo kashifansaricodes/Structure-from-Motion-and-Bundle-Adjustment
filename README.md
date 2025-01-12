@@ -25,13 +25,19 @@ The dataset used is a JBL Speaker ([Link](https://drive.google.com/drive/folders
 
 A sample image:
 
-<p align="center">
-  <img src="image.png" alt="sample_image" width="300" height="300">
-</p>
+<div style="display: flex; justify-content: space-around;">
+  <img src="https://github.com/user-attachments/assets/d7f318a0-a1d2-4d0f-8a02-4abd00f62118" alt="Image 1" width="45%" />
+  <img src="https://github.com/user-attachments/assets/8a6898d6-74ca-416e-8e62-b8d435dde0ba" alt="Image 2" width="45%" />
+</div>
+
+![1734672723911](https://github.com/user-attachments/assets/45287d0f-4a5e-42aa-beaa-3aecf3b7df3f)
+
+![1734668970073](https://github.com/user-attachments/assets/e4b1184e-af64-4c5a-b752-a27b4c2b4cec)
 
 ### Output
 
 ![Output_Point_cloud](Result/sfm.gif)
+
 
 ### Team Members
 
